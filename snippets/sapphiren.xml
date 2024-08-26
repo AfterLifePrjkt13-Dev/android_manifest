@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="hardware/qcom-caf/sm6225/audio/agm" name="SM6225-Devs-ID/vendor_qcom_opensource_agm" revision="14-caf-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/audio/pal" name="SM6225-Devs-ID/vendor_qcom_opensource_arpal" revision="14-caf-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/audio/primary-hal" name="SM6225-Devs-ID/hardware_qcom_audio-ar" revision="14-caf-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/data-ipa-cfg-mgr" name="SM6225-Devs-ID/vendor_qcom_opensource_data-ipa-cfg-mgr" revision="14-caf-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/dataipa" name="SM6225-Devs-ID/vendor_qcom_opensource_dataipa" revision="14-caf-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/display" name="SM6225-Devs-ID/hardware_qcom_display" revision="14-caf-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/media" name="SM6225-Devs-ID/hardware_qcom_media" revision="14-caf-sm6225" />
+</manifest>

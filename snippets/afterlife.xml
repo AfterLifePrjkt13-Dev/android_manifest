@@ -24,6 +24,7 @@
   <project path="device/qcom/sepolicy" name="AfterlifeOS/device_qcom_sepolicy" groups="qcom,qssi" />
   <project path="device/qcom/sepolicy-legacy-um" name="AfterlifeOS/device_qcom_sepolicy" groups="qcom,sdm660" revision="14-legacy-um" />
   <project path="device/qcom/sepolicy_vndr/legacy-um" name="AfterlifeOS/device_qcom_sepolicy_vndr" groups="qcom,lahaina" revision="14-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr/sm6225" name="SM6225-Devs-ID/device_qcom_sepolicy_vndr" revision="14-caf-sm6225" />
   <project path="device/qcom/sepolicy_vndr/sm8450" name="AfterlifeOS/device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" revision="14-caf-sm8450" />
   <project path="device/qcom/sepolicy_vndr/sm8550" name="AfterlifeOS/device_qcom_sepolicy_vndr" groups="qcom,kailua-vendor" revision="14-caf-sm8550" />
   <project path="hardware/qcom-caf/common" name="AfterlifeOS/hardware_qcom-caf_common" groups="qcom">
@@ -39,6 +40,9 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm660/Android.mk" />
+    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm6225/audio/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm6225/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm6225/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
